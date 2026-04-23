@@ -1,4 +1,4 @@
-# graph-theoretic-analysis-mouse-connectome
+# Graph-Theoretic Analysis of the Mouse Connectome
 
 Graph-theoretic analysis of the Allen mouse brain connectome, including sparsity, degree structure, centrality, modularity, and spectral properties.
 
