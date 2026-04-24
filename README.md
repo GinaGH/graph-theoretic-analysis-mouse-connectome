@@ -5,8 +5,7 @@ Graph-theoretic analysis of the Allen mouse brain connectome, including sparsity
 
 ## Motivation
 
-I am interested in the intersection of biology and mathematics, particularly neural networks. Understanding the structure inherent in connectome data and what it reveals about the organization and dynamics of the brain is central to my work.
-
+I am interested in understanding how the structure of the connectome shapes its function. The architecture of biological neural networks reveals a level of organization and efficiency that continues to influence how we design artificial ones.
 
 ## Project Structure
 
