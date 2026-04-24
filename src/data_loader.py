@@ -12,7 +12,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from config import NORMALIZED_CONNECTION_DENSITY_FILE
+try:
+    from .config import NORMALIZED_CONNECTION_DENSITY_FILE
+except ImportError:
+    from config import NORMALIZED_CONNECTION_DENSITY_FILE
+
+
+
 
 
 @dataclass

@@ -14,8 +14,13 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from config import OUTPUT_DIR
-from data_loader import load_ipsilateral_square_block
+
+try:
+    from .config import OUTPUT_DIR
+    from .data_loader import load_ipsilateral_square_block
+except ImportError:
+    from config import OUTPUT_DIR
+    from data_loader import load_ipsilateral_square_block
 
 
 THRESHOLD = 0.0001  # threshold to remove noise from the data
