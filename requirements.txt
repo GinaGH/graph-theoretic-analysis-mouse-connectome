@@ -1,0 +1,6 @@
+# Graphics and Visualization
+matplotlib
+
+# Arrays/Matrices and Analysis
+numpy
+pandas
